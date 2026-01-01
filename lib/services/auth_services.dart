@@ -21,7 +21,6 @@ class AuthService {
     );
   }
 
-
   Session? get currentSession => _supabase.auth.currentSession;
 
 
